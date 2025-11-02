@@ -3,7 +3,15 @@ import time
 import streamlit as st
 import json
 import platform
-
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(135deg, #dfe6e9, #b2bec3, #74b9ff);
+    color: #2d3436;
+    font-family: 'Times New Roman', serif;
+}
+</style>
+""", unsafe_allow_html=True)
 # Muestra la versión de Python junto con detalles adicionales
 st.write("Versión de Python:", platform.python_version())
 
